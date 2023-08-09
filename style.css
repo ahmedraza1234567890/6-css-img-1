@@ -1,0 +1,173 @@
+        .header {
+            position: sticky;
+            top: 0px;
+            background-color: bisque;
+        }
+
+        .logo {
+            width: 20%;
+            height: 50px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            float: left;
+            padding: 10px;
+            transition: all 2s;
+        }
+
+        .logo:hover {
+            color: red;
+            background-color: darkgray;
+            cursor: pointer;
+        }
+
+        .banner {
+            width: 80%;
+            height: 50px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            float: left;
+            padding: 10px;
+            transition: all 2s;
+        }
+
+        .banner:hover {
+            color: red;
+            background-color: darkgray;
+            cursor: pointer;
+        }
+
+        .bar {
+            width: 100%;
+            height: 50px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            clear: both;
+            margin-bottom: 20px;
+            padding: 10px;
+            transition: all 2s;
+        }
+
+        .bar:hover {
+            background-color: red;
+            color: darkgray;
+            cursor: pointer;
+        }
+
+        .left {
+            width: 20%;
+            height: 800px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            float: left;
+            margin-bottom: 20px;
+            padding-top: 300px;
+            background-color: rgb(43, 87, 87);
+            transition: all 2s;
+        }
+
+        .left:hover {
+            background-color: rgb(150, 22, 164);
+            color: rgb(56, 177, 19);
+            cursor: pointer;
+        }
+
+        .right {
+            width: 20%;
+            height: 800px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            float: left;
+            margin-bottom: 20px;
+            padding-top: 300px;
+            background-color: rgb(43, 87, 87);
+            transition: all 2s;
+        }
+
+        .right:hover {
+            background-color: rgb(150, 22, 164);
+            color: rgb(56, 177, 19);
+            cursor: pointer;
+        }
+
+        .center {
+            width: 60%;
+            height: 800px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            float: left;
+        }
+
+        .top,
+        .bottom {
+            width: 100%;
+            height: 200px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            clear: both;
+            padding: 90px;
+            background-color: burlywood;
+            transition: all 2s;
+
+        }
+
+        .top:hover {
+            background-color: rgb(150, 22, 164);
+            color: rgb(56, 177, 19);
+            cursor: pointer;
+        }
+        .bottom:hover {
+            background-color: rgb(150, 22, 164);
+            color: rgb(56, 177, 19);
+            cursor: pointer;
+        }
+
+        .mid1 {
+            width: 50%;
+            height: 400px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            float: left;
+            padding-top: 190px;
+            background-color: cadetblue;
+            transition: all 2s;
+        }
+        .mid1:hover{
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+
+        .mid2 {
+            width: 50%;
+            height: 400px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            float: left;
+            padding-top: 190px;
+            background-color: cadetblue;
+            transition: all 2s;
+        }
+        .mid2:hover{
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+        footer {
+            width: 100%;
+            height: 50px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            clear: both;
+            padding: 10px;
+            background-color: antiquewhite;
+            position: sticky;
+            bottom: 0px;
+            transition: all 2s;
+        }
+
+        footer:hover {
+            background-color: red;
+            color: darkgray;
+            cursor: pointer;
+        }
